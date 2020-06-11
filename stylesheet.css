@@ -1,16 +1,87 @@
-body {
-    background-color: rgb(37, 31, 13);
-    
-}
-h1 {
-    color: rgb(113, 19, 201);
-    text-align: center; 
+html {
+    scroll-behavior: smooth;
 }
 
-h2 {
-    color: rgb(211, 18, 60);
+.section {
+    height: 800px;
+}
+
+#content {
+    padding: 100px 70px 100px 70px;
+}
+
+#intro {
+    background-image: url("C:\Users\hp\Desktop\heet webpage1\background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(99, 106, 150);
+    padding: 10px;
+    padding-right: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+#nav-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0 20px;
+}
+
+#nav-list li {
+    margin: 0 15px;
+}
+
+.flex-layout {
+    display: flex;
+    padding: 80px 150px;
+}
+
+.flex-right {
+    padding: 20px;
+}
+
+.flex-layout .icon {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.center {
     text-align: center;
 }
-ul{
-    color:white;
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-item {
+    box-shadow: 5px 5px 20px;
+    margin: 15px;
+}
+
+#skills {
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+}
+
+.skill-item {
+    padding: 15px;
+}
+
+.progress {
+    border-radius: 20px !important;
+    height: 10px !important;
 }
